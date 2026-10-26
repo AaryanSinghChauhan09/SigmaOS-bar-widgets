@@ -1,0 +1,17 @@
+[package]
+name = "sigmaos-bar-widgets"
+version = "0.1.0"
+edition = "2021"
+authors = ["SigmaOS Project"]
+description = "Bar widgets"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-bar-widgets"
+readme = "README.md"
+keywords = ["bar", "widgets", "panel"]
+categories = ["gui"]
+
+[dependencies]
+sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
+
+[profile.release]
+opt-level = 3
