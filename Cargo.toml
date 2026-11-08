@@ -1,17 +1,10 @@
 [package]
-name = "sigmaos-bar-widgets"
+name = "sigmaos_bar_widgets"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Project"]
-description = "Bar widgets"
-license = "GPL-3.0-or-later"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-bar-widgets"
-readme = "README.md"
-keywords = ["bar", "widgets", "panel"]
-categories = ["gui"]
+license = "MIT"
+description = "SigmaOS bar-widgets component inspired by Linux Mint / Omarchy / Arch Linux."
 
-[dependencies]
-sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel", package = "sigmaos_kernel" }
-
-[profile.release]
-opt-level = 3
+[lib]
+name = "sigmaos_bar_widgets"
+path = "src/lib.rs"
