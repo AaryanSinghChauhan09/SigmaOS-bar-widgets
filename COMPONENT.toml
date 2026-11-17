@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-bar-widgets"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "A Rust model for organizing status-bar widgets. It provides BarWidget values with position, visibility, enabled state, interaction metadata, and string configuration, plus a BarWidgetsManager for registration, filtering, moving, ordering, and removal."
 upstream = []
@@ -11,6 +11,6 @@ provides = ["component"]
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
